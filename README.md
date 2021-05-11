@@ -48,15 +48,17 @@
 
 <hr>
 
-<h3>Programın Ana Ekranı</h3>
+<h3>Algoritmanın Gerçekleşmesi</h3>
 <ul type="square">
-<li>Ekleme,Silme ve veritabanı işlemleri yapılır</li>
-<li>Hiçbir Alan boş geçilemez, yoksa excepte uğrar</li>
-<li>Eğer eklenilecek kişinin annesi, babası ya da çocukları yoksa ilgili alana "-1" yazılır. (Aksi halde algoritma patlar)</li>
+<li>Algoritma Stringsel Olarak "Anne -> Baba -> Oğul"  gibi yollar döndürür ve bu stringsel işlemden akrabaları ayıklarız</li>
+<li>Örneğin: dayi1 = "Anne -> Baba -> Oğul" veya dayi2 = "Anne -> Anne -> Oğul" gibi.</li>
+<li>Algoritma İşlem Önceliğinden kuzenleri tespit edememektedir. "Kuzen" yerine "Teyze -> Oğlu" gibi ifadeler verir</li>
+<li>Gerisinde "Anne, Baba, Oğul, Kız, Amca, Dayı, Teyze, Hala, Dede, Nine" gibi akrabalık bağlantılarını tespit edebilir</li>
+
 </ul>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/82450697/117829171-2d8f0000-b27b-11eb-8193-7b60eb1763fa.PNG" width="800" title="hover text">
+  <img src="https://user-images.githubusercontent.com/82450697/117831291-17823f00-b27d-11eb-89f8-254288af9040.PNG" width="800" title="hover text">
 </p>
 
 
