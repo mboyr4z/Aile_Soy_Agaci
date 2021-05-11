@@ -10,7 +10,6 @@ import sys
 if __name__ == "__main__":
     import os
 
-
     app = QtWidgets.QApplication(sys.argv)
     ui = Ui_Form()
 

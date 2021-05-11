@@ -91,7 +91,7 @@ class Ui_Form(QtWidgets.QWidget):
                            "QPushButton:hover{background:#760925;color:white;border:3px solid;border-color:white;}"
                            "QTextBrowser{color:black;border:2px solid; border-radius:5px; background:White;}")
         self.show()
-
+        #
         self.btn_tumKisileriSil.setEnabled(False)
         self.btn_sil.setEnabled(False)
 
